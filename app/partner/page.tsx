@@ -41,7 +41,7 @@ export default function PartnerPage() {
             <div className="relative animate-fade-in">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/csr.jpg"
                   alt="Partnership"
                   width={600}
                   height={500}

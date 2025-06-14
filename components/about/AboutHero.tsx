@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Heart, Users, Globe, Target } from "lucide-react"
-import Image from "next/image"
+import { Globe, Heart, Target, Users } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutHero() {
   return (
@@ -17,13 +17,14 @@ export default function AboutHero() {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair">
-              Building a <span className="gradient-text">Compassionate</span> and{" "}
-              <span className="gradient-text">Conscious</span> India
+              Building a <span className="gradient-text">Compassionate</span>{" "}
+              and <span className="gradient-text">Conscious</span> India
             </h1>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Established in 2024 in Kota, Rajasthan, we are a Section 8 registered organization committed to holistic
-              social development and sustainable growth across all segments of society.
+              Established in 2024 in Kota, Rajasthan, we are a Section 8
+              registered organization committed to holistic social development
+              and sustainable growth across all segments of society.
             </p>
 
             {/* Key Stats */}
@@ -59,10 +60,15 @@ export default function AboutHero() {
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3 font-playfair">Our Philosophy</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3 font-playfair">
+                Our Philosophy
+              </h3>
               <p className="text-gray-600 leading-relaxed">
-                <span className="font-medium text-[#941B0C]">"ज्ञानम् विकासाय, सेवा लोकाय"</span> - Knowledge for progress,
-                service for humanity. We believe that true progress uplifts every section of society while preserving
+                <span className="font-medium text-[#941B0C]">
+                  "ज्ञानम् विकासाय, सेवा लोकाय"
+                </span>{" "}
+                - Knowledge for progress, service for humanity. We believe that
+                true progress uplifts every section of society while preserving
                 the environment for generations to come.
               </p>
             </div>
@@ -72,16 +78,20 @@ export default function AboutHero() {
           <div className="relative animate-fade-in">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/about us.png"
                 alt="Divatharv Vikas Foundation Team"
                 width={500}
                 height={600}
                 className="w-full h-96 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/50 to-transparent"></div>
-              <div className="absolute bottom-6 left-6 right-6 text-white">
-                <h3 className="text-xl font-bold mb-2">Transforming Communities</h3>
-                <p className="text-sm opacity-90">Through compassion, consciousness, and community action</p>
+              <div className="absolute bottom-6 left-6 right-6 text-white text-center">
+                <h3 className="text-xl font-bold mb-2">
+                  Transforming Communities
+                </h3>
+                <p className="text-sm opacity-90">
+                        Through compassion, consciousness, and community action
+                </p>
               </div>
             </div>
 
@@ -99,5 +109,5 @@ export default function AboutHero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

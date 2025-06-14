@@ -114,7 +114,7 @@ export default function InitiativeModal({
                     src={image || "/placeholder.svg"}
                     alt={`${initiative.title} - Image ${index + 1}`}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                   />
                   <div
                     className={`absolute inset-0 bg-gradient-to-t ${initiative.color} opacity-60`}

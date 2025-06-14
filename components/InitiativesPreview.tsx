@@ -205,16 +205,11 @@ export default function InitiativesPreview() {
       title: "Divatharv Education Drive",
       description:
         "Reaching underserved children with school kits, academic support, and inclusive education for special needs children.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/edu 1.jpg",
       color: "from-[#941B0C] to-[#BC3908]",
       content:
         "Through our Education Drive, we reach underserved children with school kits, academic support, and awareness campaigns that spark a love for learning. We also extend inclusive education to mentally ill and special needs children, nurturing their growth with empathy and care. Our work has earned heartfelt recognition in the media, reflecting the real change we bring to young lives.",
-      images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-      ],
+      images: ["/edu.jpg", "/edu 2.jpg", "/edu 4.jpg", "/edu_nre.jpg"],
       tags: [
         "School Kits Distribution",
         "Special Needs Support",
@@ -227,15 +222,15 @@ export default function InitiativesPreview() {
       title: "Women Rise Initiative",
       description:
         "Empowering women through digital skills, financial literacy, and health awareness with our 'Train Mothers as Trainers' model.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/women2 (2).jpg",
       color: "from-[#BC3908] to-[#F6AA1C]",
       content:
         "We empower women and girls in both rural and urban areas through training in digital skills, financial literacy, and health awareness. Focused on building independence, our programs help them become confident and self-reliant. The 'Train Mothers as Trainers' model creates a ripple of empowered change-makers in every community.",
       images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
+        "/women2 (2).jpg",
+        "/women2 (3).jpg",
+        "/women 1.jpg",
+        "/women2 (4).jpg",
       ],
       tags: [
         "Digital Skills",
@@ -249,15 +244,15 @@ export default function InitiativesPreview() {
       title: "Training & Development for Empowered Livelihoods",
       description:
         "Expert-led sessions and CSR collaborations providing skill development and capacity-building workshops.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/training  (1).jpg",
       color: "from-[#F6AA1C] to-[#FFD700]",
       content:
         "Through expert-led sessions and CSR-backed collaborations, we provide skill development and capacity-building workshops for youth, women, and grassroots employees. These trainings focus on real-world employability, entrepreneurship, and digital fluency. By engaging communities and corporate partners, we bridge the gap between talent and opportunity.",
       images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
+        "/training  (1).jpg",
+        "/training  (3).jpg",
+        "/training  (4).jpg",
+        "/training  (2).jpg",
       ],
       tags: [
         "Skill Development",
@@ -271,15 +266,15 @@ export default function InitiativesPreview() {
       title: "Advancing Community Health",
       description:
         "Vaccination camps, health check-ups, blood donation drives ensuring healthcare access for all communities.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/health (4).jpg",
       color: "from-[#941B0C] to-[#BC3908]",
       content:
         "Divatharv Vikas Foundation drives inclusive healthcare by organizing vaccination camps, free health check-ups, and awareness programs across urban and rural areas. We actively promote blood donation and eye donation drives, ensuring that lifesaving support reaches those in need. By empowering women, youth, and families to protect their health and build resilience, our efforts guarantee greater access to essential medical services and foster healthier, independent communities.",
       images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
+        "/health (4).jpg",
+        "/health (3).jpg",
+        "/health (2).jpg",
+        "/health 1.jpg",
       ],
       tags: [
         "Vaccination Camps",
@@ -293,15 +288,15 @@ export default function InitiativesPreview() {
       title: "Nurturing Spiritual Growth",
       description:
         "Community programs fostering spiritual well-being, mindfulness, and holistic personal development.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/spiritual.jpg",
       color: "from-[#BC3908] to-[#F6AA1C]",
       content:
         "Divatharv Vikas Foundation fosters spiritual well-being and self-consciousness through various community programs and services. We guide individuals on their journey toward inner peace, mindfulness, and holistic development. Our initiatives create a supportive environment for personal transformation & strengthened values.",
       images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
+        "/spiritual.jpg",
+        "/spiritual (2).jpg",
+        "/spiritual (1).jpg",
+        "/spiritual (3).jpg",
       ],
       tags: [
         "Spiritual Well-being",
@@ -315,15 +310,15 @@ export default function InitiativesPreview() {
       title: "Compassionate Social Initiatives",
       description:
         "Essential support including food distribution, programs for incarcerated individuals, and vital community services.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/social (2).jpg",
       color: "from-[#F6AA1C] to-[#FFD700]",
       content:
         "Divatharv Vikas Foundation uplifts communities by providing essential support such as food for the needy, transformative programs for incarcerated individuals, and free distribution of vital services and materials. Our humanity-driven efforts aim to restore dignity, foster hope, and create lasting positive change. We believe in empowering every life with care and opportunity.",
       images: [
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
-        "/placeholder.svg?height=400&width=800",
+        "/social (2).jpg",
+        "/social (3).jpg",
+        "/social.jpg",
+        "/social (1).jpg",
       ],
       tags: [
         "Food Distribution",

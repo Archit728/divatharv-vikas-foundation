@@ -22,11 +22,11 @@ export default function FounderMessage() {
             <div className="bg-white rounded-2xl p-8 shadow-xl text-center">
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <Image
-                  src="/placeholder.svg?height=128&width=128"
+                  src="/founder photo.jpg"
                   alt="Ms. Anita Chauhan"
                   width={128}
                   height={128}
-                  className="w-full h-full object-cover rounded-full border-4 border-emerald-200"
+                  className="w-full h-full object-cover object-top rounded-full border-4 border-emerald-200"
                 />
                 <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-br from-[#941B0C] to-[#BC3908] rounded-full flex items-center justify-center">
                   <Heart className="w-4 h-4 text-white" />

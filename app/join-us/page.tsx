@@ -43,7 +43,7 @@ export default function VolunteerPage() {
             <div className="relative animate-fade-in">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/join us.png"
                   alt="Join Our Team"
                   width={600}
                   height={500}
