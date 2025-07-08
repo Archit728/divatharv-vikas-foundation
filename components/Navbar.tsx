@@ -141,6 +141,7 @@ export default function Navbar() {
     { name: "About Us", href: "/about" },
     { name: "Focus Areas", href: "/#focus-areas" },
     { name: "Initiatives", href: "/#initiatives" },
+    { name: "Gallery", href: "/our-gallery" },
     { name: "Contact", href: "/#footer" },
   ];
 
