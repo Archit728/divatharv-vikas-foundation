@@ -17,10 +17,11 @@ export default function Hero() {
       image: "/home page 1.png",
     },
     {
-      title: "Building<br/>Compassionate<br/>Communities",
-      subtitle: "Through<br/>Sustainable<br/>Development",
-      description: "Creating lasting positive change across India",
-      image: "/home page 2.png",
+      // title: "Building<br/>Compassionate<br/>Communities",
+      title: "DVF–IFDTO<br/>A Global<br/>Partnership",
+      subtitle: "For<br/>Empowering Communities<br/>",
+      description: "Creating lasting positive change across the World",
+      image: "/home page 2.jpg",
     },
     {
       title: "Transforming<br/>Lives<br/>Together",
