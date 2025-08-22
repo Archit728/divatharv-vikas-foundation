@@ -191,6 +191,15 @@ export default function Footer() {
               through compassion, consciousness, and community-driven
               initiatives.
             </p>
+            <Image
+              src="footer iftdo.jpg"
+              alt="iftdo logo"
+              width={150}
+              height={100}
+            ></Image>
+            <p className="text-gray-300 leading-relaxed">
+              Member of IFTDO: <br /> Driving Global Change
+            </p>
           </div>
 
           {/* Quick Links */}
