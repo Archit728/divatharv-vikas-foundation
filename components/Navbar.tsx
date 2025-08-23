@@ -156,7 +156,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* IFTDO Logo */}
-          <Link
+          {/* <Link
             href="https://iftdo.net"
             target="_blank"
             rel="noopener noreferrer"
@@ -170,7 +170,7 @@ export default function Navbar() {
                 height={40}
               />
             </div>
-          </Link>
+          </Link> */}
           {/* Logo and Diavthrav Name */}
           <Link href="/" className="flex items-center space-x-3 flex-1">
             <div className="w-10 h-10 rounded-full flex items-center justify-center overflow-hidden">
