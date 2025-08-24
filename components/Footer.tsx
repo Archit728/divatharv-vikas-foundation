@@ -147,6 +147,7 @@ export default function Footer() {
     { name: "About Us", href: "/about" },
     { name: "Focus Areas", href: "/#focus-areas" },
     { name: "Initiatives", href: "/#initiatives" },
+    { name: "Events", href: "/events" },
     { name: "Get Involved", href: "/#get-involved" },
     { name: "Contact", href: "/#contact" },
   ];
