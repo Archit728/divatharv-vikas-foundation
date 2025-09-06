@@ -17,9 +17,9 @@ export default function MissionVision() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           {/* Mission */}
-          <div className="bg-white rounded-2xl p-8 shadow-xl card-hover animate-fade-in">
+          <div className="bg-white rounded-2xl p-8 shadow-xl card-hover animate-fade-in h-full">
             <div className="flex items-center mb-6">
               <div className="w-16 h-16 bg-gradient-to-br from-[#941B0C] to-[#BC3908] rounded-full flex items-center justify-center mr-4">
                 <Target className="w-8 h-8 text-white" />
@@ -47,7 +47,7 @@ export default function MissionVision() {
 
           {/* Vision */}
           <div
-            className="bg-white rounded-2xl p-8 shadow-xl card-hover animate-fade-in"
+            className="bg-white rounded-2xl p-8 shadow-xl card-hover animate-fade-in h-full"
             style={{ animationDelay: "0.2s" }}
           >
             <div className="flex items-center mb-6">
