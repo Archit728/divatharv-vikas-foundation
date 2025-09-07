@@ -162,7 +162,7 @@ export default function Hero() {
             initial={{ opacity: 0.4, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="relative rounded-2xl overflow-hidden shadow-2xl"
+            className="relative rounded-2xl overflow-hidden shadow-2xl mt-20 self-start"
           >
             <Image
               src={slides[currentSlide].image}
