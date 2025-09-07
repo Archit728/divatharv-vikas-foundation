@@ -1,7 +1,8 @@
 "use client";
 
-import { Globe, Heart, Target, Users } from "lucide-react";
+import { Heart, Target, Users } from "lucide-react";
 import Image from "next/image";
+import LiveCounter from "../LiveCounter";
 
 export default function AboutHero() {
   return (
@@ -43,13 +44,23 @@ export default function AboutHero() {
                 <div className="text-2xl font-bold text-gray-900">1M</div>
                 <div className="text-sm text-gray-600">Target Lives</div>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#BC3908] to-[#F6AA1C] rounded-full flex items-center justify-center mx-auto mb-2">
+                  <Users className="w-6 h-6 text-white" />
+                </div>
+                <div className="text-2xl font-bold text-gray-900">1M</div>
+                <div className="text-sm text-gray-600">Target Lives</div>
+              </div> */}
+
+              {/* Live Counter Component */}
+              <LiveCounter />
+              {/* <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#F6AA1C] to-[#FFD700] rounded-full flex items-center justify-center mx-auto mb-2">
                   <Globe className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-2xl font-bold text-gray-900">6</div>
                 <div className="text-sm text-gray-600">Focus Areas</div>
-              </div>
+              </div> */}
               <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#941B0C] to-[#F6AA1C] rounded-full flex items-center justify-center mx-auto mb-2">
                   <Target className="w-6 h-6 text-white" />
@@ -90,7 +101,7 @@ export default function AboutHero() {
                   Transforming Communities
                 </h3>
                 <p className="text-sm opacity-90">
-                        Through compassion, consciousness, and community action
+                  Through compassion, consciousness, and community action
                 </p>
               </div>
             </div>

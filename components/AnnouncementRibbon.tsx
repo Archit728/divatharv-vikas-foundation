@@ -225,7 +225,7 @@ export default function AnnouncementRibbon() {
   //   );
 
   return (
-    <div className="w-full bg-gradient-to-r from-[#b86e33] via-[#d9a76c] to-[#b86e33] shadow-lg relative overflow-hidden">
+    <div className="w-full bg-gradient-to-r from-[#b86e33] via-[#d9a76c] to-[#b86e33] shadow-lg relative overflow-hidden mt-16">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div

@@ -19,31 +19,38 @@ export default function FounderMessage() {
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           {/* Founder Image & Info */}
           <div className="lg:col-span-1 animate-fade-in">
-            <div className="bg-white rounded-2xl p-8 shadow-xl text-center">
-              <div className="relative w-32 h-32 mx-auto mb-6">
-                <Image
-                  src="/founder photo.jpg"
-                  alt="Ms. Anita Chauhan"
-                  width={128}
-                  height={128}
-                  className="w-full h-full object-cover object-top rounded-full border-4 border-emerald-200"
-                />
-                <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-br from-[#941B0C] to-[#BC3908] rounded-full flex items-center justify-center">
-                  <Heart className="w-4 h-4 text-white" />
+            <a
+              href="https://www.linkedin.com/in/anita-chauhan-291917371/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-white rounded-2xl p-8 shadow-xl text-center hover:shadow-2xl transition-shadow cursor-pointer">
+                <div className="relative w-32 h-32 mx-auto mb-6">
+                  <Image
+                    src="/founder photo.jpg"
+                    alt="Ms. Anita Chauhan"
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover object-top rounded-full border-4 border-emerald-200"
+                  />
+                  <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-gradient-to-br from-[#941B0C] to-[#BC3908] rounded-full flex items-center justify-center">
+                    <Heart className="w-4 h-4 text-white" />
+                  </div>
                 </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 font-playfair">
+                  Ms. Anita Chauhan
+                </h3>
+                <p className="text-[#BC3908] font-medium mb-4">
+                  Founder & Director
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Visionary leader committed to building a compassionate and
+                  conscious India through transformational development
+                  initiatives.
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2 font-playfair">
-                Ms. Anita Chauhan
-              </h3>
-              <p className="text-[#BC3908] font-medium mb-4">
-                Founder & Director
-              </p>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Visionary leader committed to building a compassionate and
-                conscious India through transformational development
-                initiatives.
-              </p>
-            </div>
+            </a>
           </div>
 
           {/* Message Content */}

@@ -8,8 +8,8 @@ import MissionVision from "@/components/MissionVision";
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <Hero />
       <AnnouncementRibbon />
+      <Hero />
       <MissionVision />
       <FocusAreasPreview />
       <InitiativesPreview />
