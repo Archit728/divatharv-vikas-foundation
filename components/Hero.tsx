@@ -29,6 +29,12 @@ export default function Hero() {
       description: "Join us in our mission to impact one million lives by 2030",
       image: "/home page 3.png",
     },
+    {
+      title: "MoU<br/> Between",
+      subtitle: "Rajasthan Technical University<br/>and DVF",
+      description: "Bridging Academia & Industry for a Transformational Future",
+      image: "/homePage_4_image.jpg",
+    },
   ];
 
   useEffect(() => {
